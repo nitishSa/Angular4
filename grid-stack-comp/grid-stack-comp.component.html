@@ -1,0 +1,9 @@
+
+<app-drag-drop-chart (update)="onUpdate($event)" id="drag-drop-container"></app-drag-drop-chart>
+
+<div #chartContainer id="chartContainer" class="droppable" style="">
+  <h2>{{chart.length}}</h2>
+  <div class="grid-stack" >
+        <ng-template chart-host></ng-template>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+
+
+#drag-drop-container{
+  position: fixed;
+  width: 200px;
+  height: 90%;
+}
+
+.droppable{
+    width: 974px;
+    height: 730.5px;
+    background-image: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) 1px, transparent 1px, transparent 10px), repeating-linear-gradient(-90deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) 1px, transparent 1px, transparent 10px);
+    background-size: 10px 10px;
+    background-position: 1px 1px;
+    margin: 0 auto;
+}

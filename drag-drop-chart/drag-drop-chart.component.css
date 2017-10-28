@@ -1,0 +1,93 @@
+.ng-draggable {
+  cursor: move;
+}
+#draggable { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable { width: 97%; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+
+.officialHeader, #reportsContainer .section1_header.headers {
+    /* background: url(../assets/dashboard_assets/common/repeat/officialHeader.png) repeat-x scroll left bottom #4EC0F9; */
+    background-color: #3DA4D6;
+    font-family: Arial,Geneva,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFF;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: auto;
+}
+drag-items li[para_icon="report_heading"] {
+    background-size: 46px;
+    background-position: center 1px !important;
+    background-repeat: no-repeat;
+  }
+  span[_ngcontent-c0] {
+    cursor: pointer;
+    position: relative;
+    float: right;
+    margin-right: 22px;
+}
+.drag-li {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    /* width: 52.3px; */
+    width: 48.5%;
+    height: 56px;
+    cursor: all-scroll;
+    float: left;
+    margin: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.drag-items li[chart_type="line_chart"],
+.drag-items li[chart_type="bar_chart"],
+.drag-items li[chart_type="activity_feed"],
+.drag-items li[chart_type="para"],
+.drag-items li[chart_type="pie_chart"],
+ .drag-items li[chart_type="table"],
+ .drag-items li[chart_type="health_chart"],
+ .drag-items li[chart_type="image"],
+ .drag-items li[chart_type="alarm"],
+  .drag-items li[chart_type="c_p"],
+   .drag-items li[chart_type="report_comment"],
+   .drag-items li[para_type="report_heading"],
+   .drag-items li[para_type="section_heading"],
+   .drag-items li[para_type="manual_data_service"],
+    .drag-items li[para_type="multi_bar_chart"],
+    .drag-items li[para_type="value_projects"] {
+    background-position: center 5px !important;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+
+.drag-li span {
+    color: rgb(111, 110, 110);
+    font-weight: bolder;
+    margin-left: 0px;
+    font-size: 10px;
+    position: relative;
+    top: -2px;
+    letter-spacing: -1px;
+    text-align: center;
+    width: 50px;
+    display: block;
+    line-height: 9px;
+    vertical-align: bottom;
+    margin-top: 38px;
+}
+
+.canvas_top{
+  margin-top: 20px;
+}
+
+.ui-draggable-dragging{
+  z-index: 1;
+}

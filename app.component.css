@@ -1,0 +1,171 @@
+h1 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+  background-color: #5c8297;
+  padding: 30px 0px;
+
+}
+
+.main
+{
+  text-align: center;
+  width:500px;
+  margin:0 auto;
+  border: 2px solid #d7d7d7;
+  border-bottom: 0px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  border-top: 0px;
+}
+
+.addItem{
+  position: relative;
+  padding-bottom: 0px;
+  height: 30px;
+}
+.Addtext
+{
+      width: 80%;
+      height: 30px;
+      padding: 5px;
+      font-size: 20px;
+}
+
+.addItem button{
+  width: 50px;
+height: 32px;
+padding: 5px;
+}
+
+ul{
+list-style: none;
+font-size:20px;
+color:#686868;
+margin-left: -40px;
+margin-bottom: 0px;
+}
+
+li{
+  border-bottom: 1px solid #bfbfbf;
+  background-color:#d7d7d7;
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+span{
+cursor: pointer;
+position: relative;
+float: right;
+margin-right: 22px;
+}
+
+.container
+{
+  text-align: center;
+
+}
+
+input[type="text"],select
+{
+      padding: 14px 10px 0px 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  background-color:#F1F1F1;
+}
+
+/* Hover Effect */
+.panel-heading:hover {
+		//-ms-transform: scale(1.02,1.02); /* IE 9 */
+    //-webkit-transform: scale(1.02,1.02); /* Safari */
+    //transform: scale(1.02,1.02);
+		z-index:9999;
+		cursor:pointer;
+    //background:#fff;
+    //background-image: linear-gradient(-180deg, #FFFFFF, #EBEBEB);
+	}
+
+/* Panel header color on active */
+ .panel-info > .panel-heading:active {
+  background-color:#37BCFF;
+}
+
+ .panel-warning > .panel-heading:active {
+  background-color:#FDDA24;
+}
+
+ .panel-danger > .panel-heading:active {
+  background-color:#FF3B3B;
+}
+
+/* Drag gridstack panel color
+.panel-heading:active {
+    //background: #333;
+    background:hsl(240,65%,50%);
+  -webkit-box-shadow: inset 0 0 10px #CCCCCC;
+    -moz-box-shadow: inset 0 0 10px #CCCCCC;
+    box-shadow: inset 0 0 10px #CCCCCC;
+}*/
+
+
+/* Gridstack */
+.grid-stack-item-content {
+    //background: rgba(255, 255, 222, 0.1);
+    background: #FFF;
+    border-color:rgb(204,204,204);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    //box-shadow: 5px 5px 5px grey;
+}
+
+/* Align Panel Text */
+.panel-title {
+    text-align: center;
+    /*color: #FFF;*/
+}
+
+.panel-title > a {
+  color: inherit;
+}
+
+/* Fixes Font Awesome and Gridstack Resizer */
+.grid-stack-item > .ui-icon.ui-resizable-handle {
+  background-image: none;
+}
+
+
+/* Custom Scroller */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 4px rgba(255,255,255,0.2);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgba(0,0,0,0.2);
+}
